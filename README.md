@@ -24,7 +24,9 @@ It covers:
 ## 🏗️ Architecture  
 
 ```mermaid
+
 flowchart LR
+
     A[Raw Data (UCI Repo)] --> B[EDA + Feature Engineering (Jupyter)]
     B --> C[Model Training (XGBoost, PyTorch)]
     C --> D[Experiment Tracking (MLflow)]
@@ -34,6 +36,7 @@ flowchart LR
     G --> H[Kubernetes Deployment]
     H --> I[Monitoring: Drift + Metrics]
     I --> J[GenAI Analyst Assistant (LangChain + Vector DB)]
+
 ```
 
 ---
