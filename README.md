@@ -44,16 +44,22 @@ flowchart LR
 ## ⚡ Features  
 
 ✅ **EDA & Preprocessing:** Missing values, outliers, ratios (utilization, repayment)  
+
 ✅ **Models:**  
-- XGBoost baseline  
-- PyTorch MLP comparison  
+ - XGBoost baseline  
+ - PyTorch MLP comparison  
+
 ✅ **Evaluation:** AUC, F1, recall, calibration curves  
+
 ✅ **Explainability:** SHAP feature importance  
+
 ✅ **MLOps:**  
-- MLflow experiment tracking  
-- Airflow DAG for ETL + training  
-- Docker + Kubernetes deployment  
+ - MLflow experiment tracking  
+ - Airflow DAG for ETL + training  
+ - Docker + Kubernetes deployment  
+
 ✅ **Monitoring:** Drift & metric tracking  
+
 ✅ **GenAI Assistant:** Query insights with LangChain + FAISS  
 
 ---
