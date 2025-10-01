@@ -27,15 +27,15 @@ It covers:
 
 flowchart LR
 
-    A[Raw Data (UCI Repo)] --> B[EDA + Feature Engineering (Jupyter)]
-    B --> C[Model Training (XGBoost, PyTorch)]
-    C --> D[Experiment Tracking (MLflow)]
-    C --> E[Explainability (SHAP)]
-    C --> F[FastAPI Service]
-    F --> G[Docker Container]
-    G --> H[Kubernetes Deployment]
-    H --> I[Monitoring: Drift + Metrics]
-    I --> J[GenAI Analyst Assistant (LangChain + Vector DB)]
+    A["Raw Data (UCI Repo)"] --> B["EDA + Feature Engineering (Jupyter)"]
+    B --> C["Model Training (XGBoost, PyTorch)"]
+    C --> D["Experiment Tracking (MLflow)"]
+    C --> E["Explainability (SHAP)"]
+    C --> F["FastAPI Service"]
+    F --> G["Docker Container"]
+    G --> H["Kubernetes Deployment"]
+    H --> I["Monitoring: Drift + Metrics"]
+    I --> J["GenAI Analyst Assistant (LangChain + Vector DB)"]
 
 ```
 
